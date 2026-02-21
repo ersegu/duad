@@ -1,0 +1,9 @@
+1. Inicio
+2. Definir `velocidad`
+3. Definir `velocidad_metros`
+4. Mostrar “Ingrese una velocidad en km/h”
+5. Pedir `velocidad`
+6. `velocidad_metros` = `velocidad` * 1000 / 3600
+7. Mostrar “La velocidad en m/s es: “
+8. Mostrar `velocidad_metros`
+9. Fin

@@ -1,0 +1,27 @@
+1. Inicio 
+2. Definir `contador`
+3. Definir `contador_mujeres`
+4. Definir `contador_hombres`
+5. Definir `sexo_usuario`
+6. Definir `porcentaje_hombres`
+7. Definir `porcentaje_mujeres`
+8. `contador` = 0
+9. `contador_mujeres` = 0
+10. `contador_hombres` = 0
+11. Mientras (`contador` < 6) hacer: 
+    1. Mostrar “Ingrese el sexo de la persona. Ingrese 1 si es mujer o 2 si es hombre”
+    2. Pedir `sexo_usuario`
+    3. Si (`sexo_usuario` == 1) entonces:
+        1. `contador_mujeres`  = `contador_mujeres` +1
+    4. Sino: 
+        1. `contador_hombres` = `contador_hombres` +1
+    5. FinSi
+    6. contador = contador + 1
+12. FinMientras
+13. `porcentaje_hombres` = `contador_hombres` * 100 / 6
+14. `porcentaje_mujeres` = `contador_mujeres` * 100  / 6
+15. Mostrar “El porcentaje de hombres es de: 
+16. Mostrar `porcentaje_hombres`
+17. Mostrar “El porcentaje de mujeres es de: 
+18. Mostrar `porcentaje_mujeres`
+19. Fin

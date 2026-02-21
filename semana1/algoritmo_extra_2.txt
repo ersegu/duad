@@ -1,0 +1,10 @@
+1. Inicio
+2. Mientras no estar preparado para el examen: 
+    1. Leer material
+    2. Si ya entendio la materia: 
+        1. Practicar
+    3. Sino, si tiene dudas: 
+        1. Repasar
+3. Agendar examen
+4. Realizar examen.
+5. Fin

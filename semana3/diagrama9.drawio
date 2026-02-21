@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="29.2.2">
+  <diagram name="Page-1" id="Xc7stIgReWyLKPpjm71Q">
+    <mxGraphModel dx="1188" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-61" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="INICIO" vertex="1">
+          <mxGeometry height="60" width="125" x="325" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="FIN" vertex="1">
+          <mxGeometry height="60" width="125" x="332.25" y="851" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-67" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZcICKzb_g35mlbBlnM1e-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-68" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="numero &amp;gt; mayor" vertex="1">
+          <mxGeometry height="100" width="162.5" x="306" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-66" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZcICKzb_g35mlbBlnM1e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-8" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="numero" vertex="1">
+          <mxGeometry height="70" width="160" x="307.25" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-65" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=76.25;exitDy=70;exitPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-11" parent="1" style="shape=display;whiteSpace=wrap;html=1;" value="Ingrese un numero" vertex="1">
+          <mxGeometry height="70" width="150" x="311.25" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-14" parent="1" style="shape=display;whiteSpace=wrap;html=1;" value="El numero mayor es: mayor" vertex="1">
+          <mxGeometry height="70" width="150" x="318.5" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="461.25" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SI" vertex="1">
+          <mxGeometry height="30" width="60" x="325" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-57" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;div&gt;contador = 0&lt;/div&gt;&lt;div&gt;mayor = 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="307.5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-69" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZcICKzb_g35mlbBlnM1e-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;mayor = numero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="99.75" x="337.38" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-59" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="contador &amp;lt; 5" vertex="1">
+          <mxGeometry height="100" width="162.5" x="306" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;contador = contador +1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="490" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-63" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-64" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=76.25;entryDy=0;entryPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-73" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="262" />
+              <mxPoint x="250" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-74" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcICKzb_g35mlbBlnM1e-75" edge="1" parent="1" source="ZcICKzb_g35mlbBlnM1e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=76.25;exitDy=70;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZcICKzb_g35mlbBlnM1e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
