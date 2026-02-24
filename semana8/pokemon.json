@@ -1,0 +1,141 @@
+[
+     {
+          "name": {
+               "english": "Pikachu"
+          },
+          "type": [
+               "Electric"
+          ],
+          "level": 10,
+          "base": {
+               "HP": 35,
+               "Attack": 55,
+               "Defense": 40,
+               "Sp. Attack": 50,
+               "Sp. Defense": 50,
+               "Speed": 90
+          }
+     },
+     {
+          "name": {
+               "english": "Charmander"
+          },
+          "type": [
+               "Fire"
+          ],
+          "level": 11,
+          "base": {
+               "HP": 39,
+               "Attack": 52,
+               "Defense": 43,
+               "Sp. Attack": 60,
+               "Sp. Defense": 50,
+               "Speed": 65
+          }
+     },
+     {
+          "name": {
+               "english": "Squirtle"
+          },
+          "type": [
+               "Water"
+          ],
+          "level": 14,
+          "base": {
+               "HP": 44,
+               "Attack": 48,
+               "Defense": 65,
+               "Sp. Attack": 50,
+               "Sp. Defense": 64,
+               "Speed": 43
+          }
+     },
+     {
+          "name": {
+               "english": "Bulbasaur"
+          },
+          "type": [
+               "Grass",
+               "Poison"
+          ],
+          "level": 13,
+          "base": {
+               "HP": 45,
+               "Attack": 49,
+               "Defense": 49,
+               "Sp. Attack": 65,
+               "Sp. Defense": 65,
+               "Speed": 45
+          }
+     },
+     {
+          "name": {
+               "english": "Caterpie"
+          },
+          "type": [
+               "Bug"
+          ],
+          "level": 17,
+          "base": {
+               "HP": 45,
+               "Attack": 30,
+               "Defense": 35,
+               "Sp. Attack": 20,
+               "Sp. Defense": 20,
+               "Speed": 45
+          }
+     },
+     {
+          "name": {
+               "english": "Vulpix"
+          },
+          "type": [
+               "Fire"
+          ],
+          "level": 15,
+          "base": {
+               "HP": 38,
+               "Attack": 41,
+               "Defense": 40,
+               "Sp. Attack": 50,
+               "Sp. Defense": 65,
+               "Speed": 65
+          }
+     },
+     {
+          "name": {
+               "english": "Poliwrath"
+          },
+          "type": [
+               "Water",
+               "Fighting"
+          ],
+          "level": 50,
+          "base": {
+               "HP": 90,
+               "Attack": 95,
+               "Defense": 95,
+               "Sp. Attack": 70,
+               "Sp. Defense": 90,
+               "Speed": 70
+          }
+     },
+     {
+          "name": {
+               "english": "Pidgey"
+          },
+          "type": [
+               "Normal",
+               "Flying"
+          ],
+          "level": 5,
+          "base": {
+               "HP": 40,
+               "Attack": 45,
+               "Defense": 40,
+               "Sp. Attack": 35,
+               "Sp. Defense": 35,
+               "Speed": 56
+          }
+     }
+]

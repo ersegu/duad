@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="29.0.3">
+  <diagram name="Page-1" id="I2gUuqK5l5DzxKMITgrF">
+    <mxGraphModel dx="983" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JJpsF3ktGglgBIZWpEji-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=20;exitPerimeter=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-4" target="JJpsF3ktGglgBIZWpEji-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-4" value="INICIO" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="189.5" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-5" value="FIN" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="215" y="580" width="101" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-7" target="JJpsF3ktGglgBIZWpEji-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-7" value="&lt;div class=&quot;notion-inline-code-container&quot; style=&quot;display:inline&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace;line-height:normal;background:rgba(135,131,120,.15);color:#EB5757;border-radius:4px;font-size:85%;padding:0.2em 0.4em;position:relative;bottom:0.065em&quot; data-token-index=&quot;0&quot; spellcheck=&quot;false&quot; class=&quot;notion-enable-hover&quot;&gt;tiempo_en_segundos&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="167" y="214" width="149" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=66.25;exitDy=60;exitPerimeter=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-9" target="JJpsF3ktGglgBIZWpEji-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-9" value="Ingrese el tiempo en segundos" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-10" target="JJpsF3ktGglgBIZWpEji-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-10" value="&lt;div class=&quot;notion-inline-code-container&quot; style=&quot;display:inline&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace; line-height: normal; background: rgba(135, 131, 120, 0.15); color: rgb(235, 87, 87); border-radius: 4px; font-size: 85%; padding: 0.2em 0.4em; position: relative; bottom: 0.065em;&quot; data-token-index=&quot;0&quot; spellcheck=&quot;false&quot; class=&quot;notion-enable-hover&quot;&gt;tiempo_en_segundos&lt;/span&gt;&lt;/div&gt; &amp;lt; 600" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149.5" y="300" width="184" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=66.25;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-12" target="JJpsF3ktGglgBIZWpEji-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-12" value="&lt;div&gt;&lt;div class=&quot;notion-inline-code-container&quot; style=&quot;display:inline&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace;line-height:normal;background:rgba(135,131,120,.15);color:#EB5757;border-radius:4px;font-size:85%;padding:0.2em 0.4em;position:relative;bottom:0.065em&quot; data-token-index=&quot;0&quot; spellcheck=&quot;false&quot; class=&quot;notion-enable-hover&quot;&gt;faltante&lt;/span&gt;&lt;/div&gt; = 600 -&lt;div class=&quot;notion-inline-code-container&quot; style=&quot;display:inline&quot;&gt;&lt;span style=&quot;font-family:&amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace;line-height:normal;background:rgba(135,131,120,.15);color:#EB5757;border-radius:4px;font-size:85%;padding:0.2em 0.4em;position:relative;bottom:0.065em&quot; data-token-index=&quot;2&quot; spellcheck=&quot;false&quot; class=&quot;notion-enable-hover&quot;&gt;tiempo_en_segundos&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-15" value="&quot;Para llegar a 10min hacen falta:&quot; &lt;div class=&quot;notion-inline-code-container&quot; style=&quot;display:inline&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace; line-height: normal; background: rgba(135, 131, 120, 0.15); color: rgb(235, 87, 87); border-radius: 4px; font-size: 85%; padding: 0.2em 0.4em; position: relative; bottom: 0.065em;&quot; data-token-index=&quot;0&quot; spellcheck=&quot;false&quot; class=&quot;notion-enable-hover&quot;&gt;faltante&lt;/span&gt;&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="484" width="130" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-24" value="Verdadero" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-25" value="Falso" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-30" target="JJpsF3ktGglgBIZWpEji-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-30" target="JJpsF3ktGglgBIZWpEji-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-30" value="&lt;div class=&quot;notion-inline-code-container&quot; style=&quot;display:inline&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace; line-height: normal; background: rgba(135, 131, 120, 0.15); color: rgb(235, 87, 87); border-radius: 4px; font-size: 85%; padding: 0.2em 0.4em; position: relative; bottom: 0.065em;&quot; data-token-index=&quot;0&quot; spellcheck=&quot;false&quot; class=&quot;notion-enable-hover&quot;&gt;tiempo_en_segundos&lt;/span&gt;&lt;/div&gt; &amp;gt; 600" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-31" value="&quot;Mayor&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="484" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-32" value="&quot;Igual&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="484" width="100" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-35" value="Falso" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.512;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-10" target="JJpsF3ktGglgBIZWpEji-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=66.5;exitDy=59;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-15" target="JJpsF3ktGglgBIZWpEji-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=51;exitDy=46;exitPerimeter=0;entryX=0.552;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-31" target="JJpsF3ktGglgBIZWpEji-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=51;exitDy=46;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JJpsF3ktGglgBIZWpEji-32" target="JJpsF3ktGglgBIZWpEji-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJpsF3ktGglgBIZWpEji-40" value="Verdadero" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

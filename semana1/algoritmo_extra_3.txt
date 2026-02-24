@@ -1,0 +1,12 @@
+1. Inicio
+2. Ahorrar dinero
+3. Si tener suficiente dinero:
+    1. Escoger fecha para el viaje
+4. Sino:
+    1. Seguir ahorrando
+5. Comprar boletos.
+6. Conseguir hospedaje.
+7. Planear actividades a realizar durante el viaje
+8. Ir al viaje
+9. Disfrutar al maximo
+10. Fin

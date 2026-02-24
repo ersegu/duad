@@ -1,0 +1,25 @@
+1. Inicio
+2. Buscar un amigo o familiar que cumpla años proximamente.
+3. Si necesitar ayuda:
+    1. Buscar amigos o familiares que puedan ayudar
+4. Escoger lugar de la fiesta
+    1. Si la fiesta es en la casa del cumpleañero
+        1. Considerar si la persona va a estar en la casa.
+    2. Sino:
+        1. Alquilar un lugar o pedir prestado un lugar.
+5. Enviar invitaciones a la fiesta
+6. Conseguir decoraciones
+7. Conseguir pastel
+8. Planear juegos o actividades
+9. Conseguir comida y bebidas
+10. Si la fiesta es en la casa del cumpleañero
+    1. Sacar al cumpleañero de la casa.
+11. Decorar el lugar.
+12. Mientras invitados llegan al lugar
+    1. Realizar juegos o actividades
+13. Llevar cumpleañero al lugar
+14. Gritar Sorpresa
+15. Disfrutar la fiesta
+16. Cantar cumpleaños
+17. Abrir regalos
+18. Fin

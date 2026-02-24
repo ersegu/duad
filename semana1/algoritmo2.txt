@@ -1,0 +1,24 @@
+1. Inicio
+2. Despertar
+3. Ponerse ropa deportiva
+4. Si esta lloviendo
+    1. Quedarse en casa.
+    2. Jugar con el perro dentro de la casa.
+5. Sino:
+    1. Sacar a pasear al perro
+6. Volver a casa
+7. Hacer ejercicio
+8. Tomar una ducha
+9. Desayunar
+10. Mientras no sean la 1PM:
+    1. Trabajar
+11. Almorzar
+12. Mientras no sean las 4PM
+    1. Trabajar
+13. Preparar cafe
+14. Compartir con familia
+15. Si no hay pendientes y si tengo tiempo libre
+    1. Realizar hobbie
+16. Cenar
+17. Dormir
+18. Fin
