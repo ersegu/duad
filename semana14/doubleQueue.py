@@ -7,67 +7,89 @@ class Node:
 
 
 class DoubleQueue:
-    def __init__(self, head):
+    def __init__(self, head=None):
         self.head = head
         self.tail = head
 
     def print_structure(self):
-        current_node = self.head
+        if self.head is None:
+            print("Queue is empty")
         
-        while (current_node is not None):
-            print(current_node.data)
-            current_node = current_node.next
+        else: 
+            current_node = self.head
+            
+            while (current_node is not None):
+                print(current_node.data)
+                current_node = current_node.next
 
     def push_left(self,node):
-        node.next = self.head
-        self.head = node
+        if self.head is None:
+            self.head = node
+            self.tail = node
+        else:
+            node.next = self.head
+            self.head = node
 
     def push_right(self, node):
-        self.tail = node
-        current_node = self.head
-        while (current_node.next is not None):
-            current_node = current_node.next
-        current_node.next = node
+        if self.tail is None:
+            self.tail = node
+            self.head = node
+        else:
+            current_node = self.head
+            while (current_node.next is not None):
+                current_node = current_node.next
+            current_node.next = node
+            self.tail = node
         
-
     def pop_left(self):
-        self.head = self.head.next
+        if self.head is None:
+            return None
+        elif self.tail == self.head:
+            self.tail = None
+            self.head = None
+        else:
+            self.head = self.head.next
+            if self.head.next is None:
+                self.tail = self.head
 
     def pop_right(self):
-        current_node = self.head
+        if self.tail is None:
+            return None
+        elif self.tail == self.head:
+            self.tail = None
+            self.head = None
+        else:
+            current_node = self.head
 
-        while (current_node.next.next is not None):
-            current_node = current_node.next
+            while (current_node.next is not None):
+                if current_node.next.next is None:
+                    self.tail = current_node
+                    self.tail.next = None
+                    break
+                current_node = current_node.next
 
-        current_node.next = None
-        self.tail = current_node
-        
+# third_node = Node("I'm the third")
+# second_node = Node("I'm the second", third_node)
+# first_node = Node("I'm the first", second_node)
 
+doublequeue = DoubleQueue()
 
-third_node = Node("I'm the third")
-second_node = Node("I'm the second", third_node)
-first_node = Node("I'm the first", second_node)
+doublequeue.push_left(Node("first"))
+doublequeue.push_left(Node("second"))
+doublequeue.push_left(Node("third"))
 
-doublequeue = DoubleQueue(first_node)
+print("Head")
+print(doublequeue.head.data)
+print("Tail")
+print(doublequeue.tail.data)
 
-print("Current Structure:")
+print("All structure")
 doublequeue.print_structure()
 
-print("Adding a node to the left")
-
-doublequeue.push_left(Node("I'm the new first"))
-doublequeue.print_structure()
-
-print("Adding a node to the right")
-
-doublequeue.push_right(Node("I'm the new last"))
-doublequeue.print_structure()
-
-
-print("Removing a node to the left")
 doublequeue.pop_left()
-doublequeue.print_structure()
+doublequeue.pop_left()
+doublequeue.pop_left()
+doublequeue.pop_left()
 
-print("Removing a node to the right")
-doublequeue.pop_right()
+print("All structure")
 doublequeue.print_structure()

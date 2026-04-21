@@ -24,13 +24,16 @@ class Queue:
                 current_node = current_node.next
             current_node.next = node
         print("Node added")
-        self.print_all()
     
     def dequeue(self):
-        print(f"Node removed: {self.head.data}")
-        self.head = self.head.next
-        self.print_all()
-
+        if self.head is None:
+            return None
+        else: 
+            data = self.head.data
+            print(f"Node removed")
+            self.head = self.head.next
+            return data
+        
     def print_all(self):
         current_node = self.head
 
@@ -45,6 +48,8 @@ queue.enqueue(Node("A"))
 queue.enqueue(Node("B"))
 queue.enqueue(Node("C"))
 
-queue.dequeue()
-
+print(queue.dequeue())
+print(queue.dequeue())
+print(queue.dequeue())
+print(queue.dequeue())
 

@@ -6,22 +6,28 @@ class Node:
 
 
 class Stack:
-    def __init__(self, head):
+    def __init__(self, head=None):
         self.head = head
 
     def print_structure(self):
-        current_node = self.head
-        
-        while (current_node is not None):
-            print(current_node.data)
-            current_node = current_node.next
+        if self.head is None: 
+            print("Stack is empty")
+        else:
+            current_node = self.head
+            
+            while (current_node is not None):
+                print(current_node.data)
+                current_node = current_node.next
 
     def push(self,node):
         node.next = self.head
         self.head = node
 
     def pop(self):
-        self.head = self.head.next
+        if self.head is None:
+            return None
+        else:
+            self.head = self.head.next
 
 third_node = Node("I'm the third")
 second_node = Node("I'm the second", third_node)
@@ -38,6 +44,9 @@ stack.push(Node("I'm the new node"))
 stack.print_structure()
 
 print("Removing a node")
+stack.pop()
+stack.pop()
+stack.pop()
 stack.pop()
 
 stack.print_structure()

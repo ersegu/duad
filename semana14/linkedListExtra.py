@@ -36,19 +36,21 @@ class LinkedList:
         self.print_all()
 
     def delete(self, data):
-        current_node = self.head
-        
-        if data == self.head.data:
-            self.head = self.head.next
-            print("Data removed")
-        else:
-            while current_node is not None:
-                if current_node.next.data == data:  
-                    print("Data removed")
-                    current_node.next = current_node.next.next
-                    break
-                current_node = current_node.next
-        self.print_all()
+        if self.head is None:
+            return None
+        else:            
+            if data == self.head.data:
+                self.head = self.head.next
+                print("Data removed")
+            else:
+                current_node = self.head
+                while current_node.next is not None:
+                    if current_node.next.data == data:  
+                        print("Data removed")
+                        current_node.next = current_node.next.next
+                        break
+                    current_node = current_node.next
+            self.print_all()
         
     def print_all(self):
         current_node = self.head
@@ -61,11 +63,11 @@ class LinkedList:
 ll = LinkedList()
 
 ll.insert_front(Node(10))
-ll.insert_front(Node(20))
+# ll.insert_front(Node(20))
 
 
-ll.insert_back(Node(30))
-ll.insert_back(Node(40))
+# ll.insert_back(Node(30))
+# ll.insert_back(Node(40))
 
-
-ll.delete(40)
+ll.delete(10)
+# ll.delete(50)

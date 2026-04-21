@@ -40,20 +40,29 @@ class DoubleLinkedList:
         print("Node added in the front")
 
     def delete(self, data):
-        current_node = self.head
-        
-        if data == self.head.data:
-            self.head = self.head.next
-            self.head.before = None
-            print("Data removed")
+        if self.head is None:
+            return None
         else:
-            while current_node is not None:
-                if current_node.next.data == data:  
-                    print("Data removed")
-                    current_node.next.next.before = current_node
-                    current_node.next = current_node.next.next
-                    break
-                current_node = current_node.next
+            if self.head == self.tail and data == self.head.data and data == self.tail.data:
+                self.head = None
+                self.tail = None
+            elif data == self.head.data:
+                self.head = self.head.next
+                self.head.before = None
+                print("Data removed")
+            elif data == self.tail.data:
+                self.tail = self.tail.before
+                self.tail.next = None
+                print("Data removed")
+            else:
+                current_node = self.head
+                while current_node.next is not None:
+                    if current_node.next.data == data:  
+                        print("Data removed")
+                        current_node.next.next.before = current_node
+                        current_node.next = current_node.next.next
+                        break
+                    current_node = current_node.next
         
     def print_forward(self):
         current_node = self.head
@@ -72,23 +81,19 @@ class DoubleLinkedList:
 
 dll = DoubleLinkedList()
 
-dll.append(Node("A"))
 dll.append(Node("B"))
-dll.append(Node("C"))
+dll.append(Node("A"))
+dll.append(Node("A"))
 
 print("\nPrinting forward")
 dll.print_forward()
 print("\nPrinting backward")
 dll.print_backward()
 
-dll.prepend(Node("X"))
+print(f"\nHead\n{dll.head.data}")
+print(f"\nTail\n{dll.tail.data}")
 
-print("\nPrinting forward")
-dll.print_forward()
-print("\nPrinting backward")
-dll.print_backward()
-
-dll.delete("B")
+dll.delete("A")
 
 print("\nPrinting forward")
 dll.print_forward()
